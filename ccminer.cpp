@@ -2696,8 +2696,7 @@ wait_stratum_url:
 		goto out;
 
 	if (!pool_is_switching)
-		applog(LOG_BLUE, "เชื่อมต่อพูลสําเร็จ
-		%s", stratum.url);
+		applog(LOG_BLUE, "เชื่อมต่อพูลสําเร็จ %s", stratum.url);
 
 	ctx->pooln = pooln = cur_pooln;
 	switchn = pool_switch_count;
